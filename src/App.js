@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { BrowserRouter , Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Work from "./Components/Work";
@@ -8,7 +8,8 @@ import Testimonial from "./Components/Testimonial";
 import Contact from "./Components/Contact";
 import Login from "./Components/Login";
 import Footer from "./Components/Footer";
-import Navbar from "./Components/Navbar";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
+      <ToastContainer />
     </div>
   );
 }
