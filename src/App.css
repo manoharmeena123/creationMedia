@@ -4,6 +4,12 @@
   box-sizing: border-box;
   font-family: "Reem Kufi", sans-serif !important;
 }
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -200,7 +206,7 @@ nav {
 .footer-wrapper {
   margin: 6rem rem;
   display: flex;
-  margin-top: 10rem;
+  margin-top: 20rem;
 }
 .footer-logo-container {
   max-width: 110px;
