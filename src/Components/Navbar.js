@@ -100,7 +100,7 @@ const Navbar = () => {
       </Drawer>
 
       {!isSmallScreen && !isMediumScreen && (
-        <Box sx={{ textAlign: "center", marginTop: "16px", backgroundColor:"white", borderRadius:"15px" }}>
+        <Box sx={{ textAlign: "center", marginTop: "12px", backgroundColor:"white", borderRadius:"15px" }}>
           <Button variant="text" color="secondary" onClick={handleLogin}>
             Login
           </Button>
